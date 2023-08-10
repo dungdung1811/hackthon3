@@ -1,0 +1,45 @@
+.word {
+  background-color: #efbcc5;
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 50px;
+}
+.wrapper {
+  font-size: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    50deg,
+    rgb(197, 133, 224),
+    rgb(169, 217, 169)
+  );
+  box-shadow: 3px 5px 3px rgba(37, 29, 29, 0.185);
+}
+textarea {
+  margin-top: 50px;
+  width: 1200px;
+  border-radius: 5px;
+}
+.button_click {
+  margin-top: 20px;
+}
+button {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin: 0 20px;
+  box-shadow: 3px 5px 3px rgba(37, 29, 29, 0.185);
+  background-color: #9a14a6;
+  border: none;
+}
